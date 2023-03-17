@@ -405,7 +405,7 @@ opacity: 95%;
 padding:10px;}  
 .insta{padding:0; color:white}   
 
-.container {
+.container {z-index: 10;
     position: relative;
     width: 80%;
     overflow: hidden;
