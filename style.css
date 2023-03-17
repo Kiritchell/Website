@@ -84,7 +84,7 @@ text-align: center;
 #lwt-hero-text, #p-hero-text{margin-top:5rem;}
 
 #hero-tag{
-  font-family: 'neoclassical', serif;
+  font-family:'Montserrat', sans-serif;
     color: #2C3842;
     text-align: center;
     font-size:1.5rem;
@@ -627,21 +627,26 @@ margin-left:-20px;
 margin-right:-20px;
 }
 
+#botspacer{height:100px;}
 
-  @media (max-width: 850px) {
+@media (max-width: 768px) {
     #circle-1{left:50vw;
     top:-20vw;}
     #circle-2{left:5vw;}
     #circle-4{top:10vw;}
     #circle-5{top:5vw;}
 
+
     #hero-text{margin-bottom: 50px;
-    margin-top:100px;
-    font-size: 2.8rem;}
+      margin-top:150px;
+      font-size: 2.5rem;}
+  
     #hero-tag{margin:15%;}
 
     .container{margin-top:50px;
-    margin-bottom: 20px;}
+    margin-bottom: 20px;
+    padding: 3px;}
+
     .form {
       grid-template-columns: 1fr;
     }
@@ -651,14 +656,6 @@ margin-right:-20px;
       top: -75px;
       right: 65px;
       transform: scale(0.95);
-    }
-  
-  
-  
-    .contact-form:before {
-      top: -13px;
-      left: initial;
-      right: 70px;
     }
   
   
@@ -683,75 +680,8 @@ margin-right:-20px;
     width:150px;
     margin: -20px;
     border: none;
-    padding:-100px;
-}
+    padding:-100px;}
 
-#hero-tag{
-  margin-top:-20px;
-  margin-left:4%;
-  margin-right:4%;
-}
-#portfolioimg{margin-top:-70px;}
+ 
 
-#logo{position:absolute;
-top:10;}
-
-.nav-bar{position:fixed;
-  bottom:0;
-margin-top:60px;}
-  }
-  
- #botspacer{height:100px;}
-  @media (max-width: 480px) {
-    #hero-text{margin-bottom: 50px;
-      margin-top:200px;
-      font-size: 2.4rem;}
-
-    #circle-1{left:50vw;
-      top:-20vw;}
-      #circle-2{left:5vw;}
-
-    .container {
-      padding: 1.5rem;
-      margin-bottom:10px;
-      margin-top: -100px;
-    }
-  
-    .contact-info:before {
-      display: none;
-    }
-    form,
-    .contact-info {
-      padding: 1.7rem 1.6rem;
-    }
-    .text,
-    .information,
-    .social-media p {
-      font-size: 0.8rem;
-    }
-  
-    .title {
-      font-size: 1.15rem;
-    }
-  
-    .social-icons a {
-      width: 30px;
-      height: 30px;
-      line-height: 30px;
-    }
-  
-    .icon {
-      width: 23px;
-    }
-  
-    .input {
-      padding: 0.45rem 1.2rem;
-    }
-  
-    .subbtn {
-      padding: 0.45rem 1.2rem;
-      line-height: .8rem;
-    }
-
-    #portfolioimg{margin-top:-100px;}
   }
