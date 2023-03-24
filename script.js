@@ -1,10 +1,10 @@
-let navLink1 = document.getElementById('nav-link-1')
+//let navLink1 = document.getElementById('nav-link-1')
 let navLink2 = document.getElementById('nav-link-2')
 let navLink3 = document.getElementById('nav-link-3')
 let navLink4 = document.getElementById('nav-link-4')
 let heroTag = document.getElementById('hero-tag')
 
-navLink1.textContent= "Let's Work Together";
+//navLink1.textContent= "Let's Work Together";
 navLink2.textContent= "Portfolio";
 navLink3.textContent="Contact";
 navLink4.textContent="Home";
