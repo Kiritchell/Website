@@ -686,7 +686,16 @@ margin-right:-20px;
     margin: -20px;
     border: none;
     padding:-100px;}
+    #bar-1{
+      margin-left:20px;
+      height:7px;
 
-
-
+    }
+#safari-back-arrow{
+  margin-left:-15px;
+}
+#url-bar{
+  padding:7px;
+}
+#url{font-size:8px;}
   }
